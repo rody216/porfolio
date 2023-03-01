@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+    <link rel="stylesheet" href="../css/estilos.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<header2 class="header" id="inicio">
+    <img class="hamburguer" src="../img/hamburguesa.svg" alt="">
+    <nav class="menu-navegacion">
+        <a href="../index.html">Inicio</a>
+        <a href="../contenido/sobreNosotros.html">Nosotros</a>
+        <a href="../contenido/galeria.html">Galeria</a>
+        <a href="../contenido/videos.html">Vídeos</a>
+             
+    </nav>
+   
+    <div class="contenedor head">
+                
+    </div>
+    
+</header>
+
+<main>             
+    <div class="imagen-light">
+        <img src="../img/close.svg" alt="" class="close">
+        <img src="" alt="" class="agregar-imagen">
+    </div>     
+</main>
+
+<body>
+    <div class="contact_form">
+
+        <div class="formulario">      
+          <h1>Formulario de contacto</h1>
+            <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+    
+    
+              <form action="submeter-formulario.php" method="post">       
+    
+                
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                  
+                    <p>
+                      <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                
+                    <p>
+                      <label for="telefone" class="colocar_telefono">Teléfono
+                      </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>    
+                  
+                    <p>
+                      <label for="website" class="colocar_website">Sitio web
+                      </label>
+                        <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                    </p>    
+                  
+                    <p>
+                      <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>    
+                  
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                      </label>                     
+                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                    </p>                    
+                  
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>          
+                
+              </form>
+        </div>  
+      </div>
+
+      <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Rodolfo Alvarez Design</h2>
+                    <p>Somos expertos en la creación de tus sueños</p>
+                </div>
+                <div class="social-media">
+                  <a href="https://api.whatsapp.com/send?phone=573122636422&text=Hola." target="_blank" class="social-media-icon">
+                    <i class='bx bxl-whatsapp' ></i>
+
+                  <a href="https://www.facebook.com/rodolfo.alvarez.754/" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="https://www.instagram.com/luis04vides/" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="../js/menu.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/lightbox.js"></script>
+</body>
+</html>
